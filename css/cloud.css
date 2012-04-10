@@ -1,0 +1,10 @@
+div#cloud {
+    margin-left: 700px;
+    text-align: justify;
+}
+
+div#cloud a {
+    font-size: .9em;
+    padding: 4px;
+}
+

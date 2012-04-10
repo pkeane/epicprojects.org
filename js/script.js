@@ -2,6 +2,7 @@ var Clouds = {};
 
 $(document).ready(function() {
     Clouds.init();
+    $('a[rel*=lightbox]').lightBox({fixedNavigation:true}); // Select all links that contains lightbox in the attribute rel
 });
 
 Clouds.init = function() {
@@ -16,3 +17,4 @@ Clouds.init = function() {
         });  
     });
 };
+
